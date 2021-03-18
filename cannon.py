@@ -35,11 +35,11 @@ def draw():
 
     for target in targets:
         goto(target.x, target.y)
-        dot(20, 'blue')
+        dot(8, 'green')
 
     if inside(ball):
         goto(ball.x, ball.y)
-        dot(6, 'red')
+        dot(25, 'red')
 
     update()
 
@@ -53,7 +53,7 @@ def move():
 
     # Move the existing targets
     for target in targets:
-        target.x -= 0.5
+        target.x -= 0.8
 
     # Move the cannon shot
     if inside(ball):
