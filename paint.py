@@ -59,6 +59,7 @@ def rectangle(start, end):
 
 def triangle(start, end):
     "Draw triangle from start to end."
+    #Gaston
     up()
     goto(start.x, start.y)
     down()
@@ -100,8 +101,11 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
-onkey(lambda: color('cyan'), 'C') #Adrian
-onkey(lambda: color('yellow'), 'Z') #Carlos
+
+#Adrian
+onkey(lambda: color('cyan'), 'C')
+#Carlos
+onkey(lambda: color('yellow'), 'Z')
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')

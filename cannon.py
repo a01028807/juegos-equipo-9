@@ -43,8 +43,8 @@ def draw():
 
     if inside(ball):
         goto(ball.x, ball.y)
-
-        dot(25, 'red')
+        #Gaston
+        dot(6, 'green')
     update()
 
 def move():
@@ -57,11 +57,11 @@ def move():
 
     # Move the existing targets
     for target in targets:
+<<<<<<< HEAD
         #carlos
         target.x -= 0.8
         #Gravity - Adrian
         target.y -= 0.65
-
 
     # Move the cannon shot
     if inside(ball):
