@@ -13,7 +13,7 @@ from random import randrange
 from turtle import *
 from freegames import vector
 
-ball = vector(-200, -200)
+ball = vector(-400, -400)
 speed = vector(0, 0)
 targets = []
 
@@ -39,7 +39,7 @@ def draw():
 
     if inside(ball):
         goto(ball.x, ball.y)
-        dot(6, 'red')
+        dot(6, 'green')
 
     update()
 
