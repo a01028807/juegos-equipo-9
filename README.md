@@ -8,7 +8,7 @@ Paint.
 Cannon
 
 # Videos
-https://youtu.be/daRT94A0Omw
+https://youtu.be/eF14T-XBqW4
 
 # Modificaciones
 carlos fragoso: hizo cambios en ambos juegos, en paint desarrolló el  rectangulo y agregó el color amarillo, en cannon modifico el tamaño del proyectil y las bolitas hostiles, también velocidades de ambas y colores de ambos.
