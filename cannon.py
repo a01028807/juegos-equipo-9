@@ -57,7 +57,6 @@ def move():
 
     # Move the existing targets
     for target in targets:
-<<<<<<< HEAD
         #carlos
         target.x -= 0.8
         #Gravity - Adrian
