@@ -1,4 +1,8 @@
-"""Cannon, hitting targets with projectiles.
+"""
+Adrian Pineda, A01025561
+Gaston Cohen, A01028807 
+Carlos Fragoso, A01028113
+Cannon, hitting targets with projectiles.
 
 Exercises
 
@@ -13,7 +17,7 @@ from random import randrange
 from turtle import *
 from freegames import vector
 
-ball = vector(-200, -200)
+ball = vector(-400, -400)
 speed = vector(0, 0)
 targets = []
 
@@ -39,8 +43,8 @@ def draw():
 
     if inside(ball):
         goto(ball.x, ball.y)
-        dot(25, 'red')
 
+        dot(25, 'red')
     update()
 
 def move():
